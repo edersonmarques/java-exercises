@@ -8,7 +8,9 @@ public class Truncate {
         System.out.println("tax is $" + (int)(tax * 100000) / 100000.0);
         System.out.println("tax is $" + tax);
         
-        
+        double amount = 5;
+        System.out.println(amount / 2);
+        System.out.println(5 / 2);
         
     }
 }
