@@ -7,6 +7,7 @@ public class LoanPayments {
         Scanner input = new Scanner(System.in); 
         System.out.print("Enter the annual interest rate: ");
         double annualInterestRate = input.nextDouble();
+        input.close();
         double monthlyRate = (annualInterestRate / 100) / 12;
         
         System.out.print("Enter the loan amount: ");

@@ -6,6 +6,7 @@ public class CountingMonetaryUnits {
 
         System.out.print("Enter the amount (5.79): ");
         double amount = input.nextDouble();
+        input.close();
 
         int remainingCents = (int)(amount * 100); // Imprecision problem
         int dollars = remainingCents / 100;
@@ -23,5 +24,7 @@ public class CountingMonetaryUnits {
         System.out.println("Number of dimes: " + dimes);
         System.out.println("Number of nickels: " + nickels);
         System.out.println("Number of pennies: " + pennies);
+
+        
     }
 }

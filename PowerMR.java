@@ -4,6 +4,7 @@ public class PowerMR {
         Scanner input = new Scanner(System.in);
         System.out.println("Write m and r: ");
         double m = input.nextDouble(), r = input.nextDouble();
+        input.close();
         System.out.println("mr² = " + Math.pow(m, r));
     }
 }
