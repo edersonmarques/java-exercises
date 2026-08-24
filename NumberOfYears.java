@@ -6,6 +6,7 @@ public class NumberOfYears {
 
         System.out.print("Enter the number of minutes: ");
         int minutes = input.nextInt();
+        input.close();
         int days = (minutes / 60) / 24;
         int years = days / 365;
         days %= 365;
