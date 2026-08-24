@@ -6,6 +6,7 @@ public class SumTheDigits {
 
         System.out.print("Enter a integer between 0 and 1000: ");
         int number = input.nextInt();
+        input.close();
 
         int sumDigits = 0;
         sumDigits += number % 10;
