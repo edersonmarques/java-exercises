@@ -25,5 +25,16 @@ public class RandomColor {
                 System.out.println("Red.");
                 break;
         }
+
+        
+
+        /*           OR
+        
+        int color = (int)(Math.random() * 7);
+        String[] colors = {"Violet", "Indigo", "Blue", "Green", "Yellow", "Orange", "Red"};
+        System.out.println(colors[color]);
+        
+        
+        */
     }
 }
