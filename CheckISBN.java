@@ -5,6 +5,7 @@ public class CheckISBN {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the first 9 digits of an ISBN as an integer: ");
         int isbn = input.nextInt();
+        input.close();
 
         int d9 = isbn % 10;
         int remainingDigits = isbn / 10;
