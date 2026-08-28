@@ -10,6 +10,7 @@ public class LinearEquation2x2 {
         double d = input.nextDouble();
         double e = input.nextDouble();
         double f = input.nextDouble();
+        input.close();
 
         double x = (e * d - b * f) / (a * d - b * c);
         double y = (a * f - e * c) / (a * d - b * c);
