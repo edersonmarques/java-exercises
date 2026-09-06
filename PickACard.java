@@ -1,9 +1,11 @@
 public class PickACard {
+
+    // Can't use arrays.
     public static void main(String[] args) {
         int randomRank = (int)(Math.random() * 13);
         int randomSuit = (int)(Math.random() * 4);
 
-        String rank, suit;
+        String rank = "", suit = "";
 
         switch (randomRank) {
             case 0:
@@ -19,7 +21,7 @@ public class PickACard {
                 rank = "King";
                 break;
             default:
-                rank = String.valueOf(randomRank);
+                rank = String.valueOf(randomRank + 1);
                 break;        
         }
 
@@ -35,12 +37,9 @@ public class PickACard {
                 break;
             case 3:
                 suit = "Spades";
-                break;
-            default:
-                suit = "";
                 break;        
         }
 
-        System.out.println("You picked " + rank + " Of " + suit + ".");
+        System.out.println("You picked " + rank + " of " + suit + ".");
     }
 }
